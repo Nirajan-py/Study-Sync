@@ -597,11 +597,10 @@ h4 {
 @media (max-width:654px){
 .footer-right {
     margin-top: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
-    column-gap: 0.6rem;
-    padding: 0 1.5rem;
+    padding: 0 3rem;
 }
 .right-fourth {
     display: none;
